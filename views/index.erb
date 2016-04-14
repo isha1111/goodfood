@@ -1,0 +1,15 @@
+<ul>
+  <% @dish_types.each do |dish_type| %>
+  <li><a href="/?id=<%= dish_type.id %>"><%= dish_type.name %></a></li>
+  <% end %>
+</ul>
+
+<h2 id="addDish"><a href="/dishes/new">Add new dish</a></br></h2>
+
+<% @dishes.each do |dish|   %>
+<a href="/dishes/<%= dish.id %>"> <%= dish.name %> </a> </br>
+<a href="/dishes/<%= dish.id %>"><img src="<%=  dish.image_url %>"></a> </br>
+
+<% end %>
+
+<a href="/"><button>Home</button></a>

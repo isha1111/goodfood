@@ -1,0 +1,22 @@
+img {
+  max-width: 200px;
+  max-width: 200px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+#addDish {
+  vertical-align: top;
+  display: block;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+ul li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+}
